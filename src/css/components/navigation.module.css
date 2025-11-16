@@ -12,6 +12,7 @@
   align-items: center;
   border-top: 1px solid #e6e7eb;
   background-color: #ffffff;
+  z-index: 100;
 }
 .item {
   display: flex;
