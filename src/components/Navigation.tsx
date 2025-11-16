@@ -10,7 +10,7 @@ import onReward from "../assets/components/navigation/onReward.svg";
 import offReward from "../assets/components/navigation/offReward.svg";
 
 import onRequest from "../assets/components/navigation/onRequest.svg";
-import offRequest from "../assets/components/navigation/offHome.svg";
+import offRequest from "../assets/components/navigation/offRequest.svg";
 
 import onMyPage from "../assets/components/navigation/onMyPage.svg";
 import offMyPage from "../assets/components/navigation/offMyPage.svg";
