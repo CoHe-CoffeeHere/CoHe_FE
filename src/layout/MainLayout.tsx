@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import naviStyle from "../css/components/navigation.module.css";
 import layoutStyle from "../css/layout/layout.module.css";
+import Navigation from "../components/Navigation";
 
 export default function MainLayout() {
   return (
@@ -8,7 +8,7 @@ export default function MainLayout() {
       <div className={layoutStyle.mainLayout}>
         <Outlet />
       </div>
-      <div className={naviStyle.container}>네비</div>
+      <Navigation />
     </div>
   );
 }

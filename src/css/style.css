@@ -9,7 +9,10 @@ body {
   max-width: 600px;
   min-height: 100dvh;
   overflow-y: auto;
-  font-family: "Inter", sans-serif;
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
