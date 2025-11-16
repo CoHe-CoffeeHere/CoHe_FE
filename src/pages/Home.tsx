@@ -1,3 +1,9 @@
+import CouponAlarm from "../components/CouponAlarm";
+
 export default function Home() {
-  return <>d</>;
+  return (
+    <>
+      <CouponAlarm />
+    </>
+  );
 }
