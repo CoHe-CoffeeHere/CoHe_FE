@@ -1,0 +1,25 @@
+.topTextDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  position: relative;
+}
+.topName {
+  color: #171719;
+  font-size: 24px;
+  font-weight: 700;
+}
+.topComment {
+  color: #37383c9c;
+  font-size: 14px;
+  font-weight: 500;
+}
+.characterIcon {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
