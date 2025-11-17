@@ -2,8 +2,11 @@ import CouponAlarm from "../components/CouponAlarm";
 import homeStyle from "../css/pages/home.module.css";
 import characterIcon from "../assets/pages/home/character.svg";
 import barcode from "../assets/pages/home/barcode.svg";
+import BarcodeModal from "../components/BarcodeModal";
+import { useState } from "react";
 
 export default function Home() {
+  const [onBarcode, setOnBarcode] = useState(false);
   return (
     <>
       <CouponAlarm />
@@ -19,6 +22,7 @@ export default function Home() {
         />
       </div>
       <div className={homeStyle.subscribeCard}>
+        {onBarcode && <BarcodeModal setOnBarcode={setOnBarcode} />}
         <div className={homeStyle.overlay}>
           <div className={homeStyle.subscribeText}>
             <div className={homeStyle.leftText}>
@@ -42,7 +46,13 @@ export default function Home() {
             </div>
           </div>
           <div className={homeStyle.barcode}>
-            <img src={barcode} alt="barcode" />
+            <img
+              src={barcode}
+              alt="barcode"
+              onClick={() => {
+                setOnBarcode(true);
+              }}
+            />
           </div>
           <div className={homeStyle.code}>
             <span>COHEE-PAH-2025-1114</span>
