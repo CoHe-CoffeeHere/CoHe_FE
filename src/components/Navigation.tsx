@@ -28,7 +28,7 @@ export default function Navigation() {
     } else if (page === "reward") {
       navigate("/reward");
     } else if (page === "request") {
-      navigate("/requests");
+      navigate("/request");
     } else if (page === "mypage") {
       navigate("/mypage");
     }
