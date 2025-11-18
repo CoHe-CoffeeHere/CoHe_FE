@@ -63,6 +63,7 @@
 .progressText {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 8px;
 }
 .progressText span {
   color: #f4f4f5;
@@ -72,7 +73,7 @@
 .progressBar {
   border-radius: 3px;
   height: 10px;
-  background-color: red;
+  background-color: #8a634c;
 }
 .progressBar div {
   background-color: #ffffff;
@@ -112,12 +113,14 @@
   gap: 20px;
   margin-top: 30px;
 }
-.eventCard {
+.eventCard,
+.couponCard {
   padding: 30px;
   background-color: #ffffff;
   border-radius: 15px;
 }
-.eventCardHeader {
+.eventCardHeader,
+.couponHeader {
   display: flex;
   align-items: center;
   position: relative;
@@ -163,3 +166,38 @@
   right: 0;
 }
 /* 진행 중 이벤트 끝 */
+
+/* 쿠폰함 */
+.couponDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.imgDiv {
+  background-color: #70737c0d;
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.couponCardDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+.useBtn {
+  border-radius: 13px;
+  background-color: #913500;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+/* 쿠폰함 끝 */

@@ -70,6 +70,46 @@ export default function Reward() {
           </div>
         </div>
       </div>
+      <div className={rewardStyle.couponDiv}>
+        <div className={rewardStyle.bottomTextDiv}>
+          <span className={rewardStyle.bottomName}>쿠폰함</span>
+          <span className={rewardStyle.bottomComment}>2개의 쿠폰이 있어요</span>
+        </div>
+        <div className={rewardStyle.couponCardDiv}>
+          <div className={rewardStyle.couponCard}>
+            <div className={rewardStyle.couponHeader}>
+              <span className={rewardStyle.imgDiv}>
+                <img src={americanoIcon} alt="아메리카노 쿠폰" />
+              </span>
+              <div className={rewardStyle.headerTextDiv}>
+                <span className={rewardStyle.headerText1}>
+                  아메리카노 무료 쿠폰
+                </span>
+                <span className={rewardStyle.headerText2}>
+                  유효기간 : 2025.12.31까지
+                </span>
+              </div>
+            </div>
+            <div className={rewardStyle.useBtn}>사용하기</div>
+          </div>
+          <div className={rewardStyle.couponCard}>
+            <div className={rewardStyle.couponHeader}>
+              <span className={rewardStyle.imgDiv}>
+                <img src={americanoIcon} alt="아메리카노 쿠폰" />
+              </span>
+              <div className={rewardStyle.headerTextDiv}>
+                <span className={rewardStyle.headerText1}>
+                  아메리카노 무료 쿠폰
+                </span>
+                <span className={rewardStyle.headerText2}>
+                  유효기간 : 2025.12.31까지
+                </span>
+              </div>
+            </div>
+            <div className={rewardStyle.useBtn}>사용하기</div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
