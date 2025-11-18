@@ -1,0 +1,86 @@
+/* 상단 텍스트 */
+.topTextDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  position: relative;
+}
+.topName {
+  color: #171719;
+  font-size: 24px;
+  font-weight: 700;
+}
+.topComment {
+  color: #37383c9c;
+  font-size: 14px;
+  font-weight: 500;
+}
+.characterIcon {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: -30px;
+  top: -55px;
+  z-index: 1;
+}
+/* 상단 텍스트 끝 */
+
+/* 리워드 카드 */
+.rewardCard {
+  width: 100%;
+  height: 200px;
+  background-color: #592100;
+  z-index: 10;
+  position: relative;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.textDiv {
+  display: flex;
+  flex-direction: column;
+}
+.cardTitle {
+  color: #eaebec;
+  font-size: 14px;
+  font-weight: 500;
+}
+.point {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.progressDiv {
+  display: flex;
+  flex-direction: column;
+}
+.progressText {
+  display: flex;
+  justify-content: space-between;
+}
+.progressText span {
+  color: #f4f4f5;
+  font-size: 12px;
+  font-weight: 600;
+}
+.progressBar {
+  border-radius: 3px;
+  height: 10px;
+  background-color: red;
+}
+.progressBar div {
+  background-color: #ffffff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  width: 60%;
+  height: 100%;
+}
+/* 리워드 카드 끝 */
