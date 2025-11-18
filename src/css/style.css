@@ -1,6 +1,7 @@
 html {
   height: auto;
   min-height: 100%;
+  scrollbar-gutter: stable;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
     "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  scrollbar-gutter: stable both-edges;
 }
 
 #root {
