@@ -5,6 +5,7 @@ import Subscribe from "./pages/Subscribe";
 import Reward from "./pages/Reward";
 import Request from "./pages/Request";
 import MyPage from "./pages/MyPage";
+import RequestSubmit from "./pages/RequestSubmit";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="subscribe" element={<Subscribe />} />
         <Route path="reward" element={<Reward />} />
         <Route path="request" element={<Request />} />
+        <Route path="request/:category" element={<RequestSubmit />} />
         <Route path="mypage" element={<MyPage />} />
       </Route>
     </Routes>
