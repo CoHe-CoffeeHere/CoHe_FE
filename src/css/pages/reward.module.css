@@ -1,0 +1,211 @@
+/* 상단 텍스트 */
+.topTextDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  position: relative;
+}
+.topName {
+  color: #171719;
+  font-size: 24px;
+  font-weight: 700;
+}
+.topComment {
+  color: #37383c9c;
+  font-size: 14px;
+  font-weight: 500;
+}
+.characterIcon {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: -30px;
+  top: -55px;
+  z-index: 1;
+}
+/* 상단 텍스트 끝 */
+
+/* 리워드 카드 */
+.rewardCard {
+  width: 100%;
+  height: 200px;
+  background-color: #592100;
+  z-index: 10;
+  position: relative;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.textDiv {
+  display: flex;
+  flex-direction: column;
+}
+.cardTitle {
+  color: #eaebec;
+  font-size: 14px;
+  font-weight: 500;
+}
+.point {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.progressDiv {
+  display: flex;
+  flex-direction: column;
+}
+.progressText {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.progressText span {
+  color: #f4f4f5;
+  font-size: 12px;
+  font-weight: 600;
+}
+.progressBar {
+  border-radius: 3px;
+  height: 10px;
+  background-color: #8a634c;
+}
+.progressBar div {
+  background-color: #ffffff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  width: 60%;
+  height: 100%;
+}
+/* 리워드 카드 끝 */
+
+/* 진행 중 이벤트 */
+.progressEventDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.bottomTextDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.bottomName {
+  color: #171719;
+  font-size: 18px;
+  font-weight: 600;
+}
+.bottomComment {
+  font-size: 14px;
+  font-weight: 500;
+  color: #37383c9c;
+}
+.eventCardDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+.eventCard,
+.couponCard {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.eventCardHeader,
+.couponHeader {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.headerTextDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 10px;
+}
+.headerText1 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #000000;
+}
+.headerText2 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #37383c9c;
+}
+.eventBtn {
+  background-color: #70737c14;
+  border-radius: 13px;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.eventBtn:active {
+  transform: scale(0.98);
+}
+.hot {
+  font-size: 12px;
+  font-weight: 600;
+  color: #e52222;
+  height: fit-content;
+  padding: 5px 9px;
+  background-color: #e5222233;
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* 진행 중 이벤트 끝 */
+
+/* 쿠폰함 */
+.couponDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.imgDiv {
+  background-color: #70737c0d;
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.couponCardDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+.useBtn {
+  border-radius: 13px;
+  background-color: #913500;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.useBtn:active {
+  transform: scale(0.98);
+}
+/* 쿠폰함 끝 */

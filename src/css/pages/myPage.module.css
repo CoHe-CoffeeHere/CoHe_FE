@@ -1,0 +1,100 @@
+/* 상단 텍스트 */
+.topTextDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  position: relative;
+}
+.topName {
+  color: #171719;
+  font-size: 24px;
+  font-weight: 700;
+}
+.topComment {
+  color: #37383c9c;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* 상단 텍스트 끝 */
+.profileCard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background-color: #592100;
+  padding: 30px;
+}
+.profileHeader {
+  display: flex;
+  align-items: center;
+}
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 15px;
+}
+.profileName {
+  font-size: 17px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.profileEmail,
+.currentPass {
+  font-size: 12px;
+  font-weight: 500;
+  color: #eaebec;
+}
+.profilePass {
+  background-color: #ffffff1a;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+.passName {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.textDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 40px;
+}
+.title {
+  color: #171719;
+  font-size: 18px;
+  font-weight: 600;
+}
+.subTitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: #37383c9c;
+}
+.settingAndInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+.logOut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.logOut span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ff4242;
+  cursor: pointer;
+}
+.logOut span:active {
+  transform: scale(0.98);
+}

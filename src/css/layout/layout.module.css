@@ -1,0 +1,20 @@
+.globalLayout {
+  min-height: 100%;
+  /* padding: 20px; */
+  /* box-sizing: border-box; */
+  overflow: visible;
+}
+.mainLayoutContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.mainLayout {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  padding: 25px 20px 85px 20px;
+  box-sizing: border-box;
+  background-color: #f7f7f8;
+}

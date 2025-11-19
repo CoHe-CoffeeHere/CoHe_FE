@@ -1,0 +1,31 @@
+.requestCard {
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.requestCard:active {
+  transform: scale(0.98);
+}
+.TextDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 10px;
+}
+.Text1 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #000000;
+}
+.Text2 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #37383c9c;
+}
+.arrow {
+  position: absolute;
+  right: 30px;
+}

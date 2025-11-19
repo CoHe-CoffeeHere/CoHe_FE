@@ -1,0 +1,38 @@
+/* 상단 텍스트 */
+.topTextDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 35px;
+  margin-bottom: 70px;
+  position: relative;
+}
+.topName {
+  color: #171719;
+  font-size: 24px;
+  font-weight: 700;
+}
+.topComment {
+  color: #37383c9c;
+  font-size: 14px;
+  font-weight: 500;
+}
+.characterIcon {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: -30px;
+  top: -55px;
+  z-index: 1;
+}
+/* 상단 텍스트 끝 */
+
+/* 요청 카드 */
+.requestDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 10;
+  position: relative;
+}
+/* 요청 카드 끝 */

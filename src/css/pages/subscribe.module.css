@@ -1,0 +1,197 @@
+/* 상단 텍스트 */
+.topTextDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  position: relative;
+}
+.topName {
+  color: #171719;
+  font-size: 24px;
+  font-weight: 700;
+}
+.topComment {
+  color: #37383c9c;
+  font-size: 14px;
+  font-weight: 500;
+}
+.characterIcon {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: -30px;
+  top: -55px;
+  z-index: 1;
+}
+/* 상단 텍스트 끝 */
+
+/* 패스 박스 */
+.passContainer {
+  width: 100%;
+  height: 400px;
+  background-color: #592100;
+  z-index: 10;
+  position: relative;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+.title span {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.title div {
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 600;
+  background-color: #913500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  padding: 6px 20px;
+  height: fit-content;
+}
+.leftInfo {
+  color: #eaebec;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.cashInfo {
+  color: #f4f4f5;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+/* 패스 박스 끝*/
+
+/* 다른 플랜 */
+.anotherPlanText {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.anotherTitle {
+  color: #171719;
+  font-size: 18px;
+  font-weight: 500;
+}
+.anotherSub {
+  color: #37383c9c;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* 다른 플랜 끝*/
+
+.planDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.planBox {
+  /* border: 1px solid black; */
+  padding: 20px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  border: 2px transparent solid;
+  cursor: pointer;
+}
+.selected {
+  background-color: transparent;
+  border: 2px #592100 solid;
+  box-sizing: border-box;
+}
+.selected .btnDiv {
+  background-color: #592100;
+  color: #ffffff;
+}
+.selected .btnDiv:active {
+  transform: scale(0.98);
+}
+.passHeader {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.titleTextDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-left: 10px;
+}
+.titleText {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+}
+.titleText2 {
+  font-size: 12px;
+  font-weight: 300;
+  color: #2e2f33e0;
+}
+.checkedCircle {
+  background-color: #592100;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.priceDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.price {
+  color: #171719;
+  font-size: 28px;
+  font-weight: 700;
+}
+.monthly {
+  color: #37383c9c;
+  font-size: 12px;
+  font-weight: 400;
+}
+.contentDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 40px;
+}
+.contentDiv span {
+  display: flex;
+  align-items: center;
+  color: #2e2f33e0;
+  font-size: 14px;
+  font-weight: 500;
+}
+.btnDiv {
+  font-size: 15px;
+  font-weight: 600;
+  border: 2px solid #592100;
+  border-radius: 10px;
+  height: 40px;
+  color: #592100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  background-color: #ffffff;
+}

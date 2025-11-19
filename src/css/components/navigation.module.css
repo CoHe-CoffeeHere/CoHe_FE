@@ -1,0 +1,34 @@
+.container {
+  /* background-color: blue; */
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  display: flex;
+  padding: 0 30px;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e6e7eb;
+  background-color: #ffffff;
+  z-index: 100;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.item img {
+  width: 24px;
+  height: 24px;
+}
+.item span {
+  color: #989ba2;
+  font-size: 13px;
+  font-weight: 500;
+}
+.selected span {
+  color: #592100;
+}

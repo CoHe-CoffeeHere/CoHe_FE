@@ -1,0 +1,152 @@
+/* 상단 텍스트 */
+.topTextDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  position: relative;
+}
+.topName {
+  color: #171719;
+  font-size: 24px;
+  font-weight: 700;
+}
+.topComment {
+  color: #37383c9c;
+  font-size: 14px;
+  font-weight: 500;
+}
+.characterIcon {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+/* 상단 텍스트 끝 */
+
+/* 구독 카드  */
+.subscribeCard {
+  position: relative;
+  border-radius: 15px;
+  height: 460px;
+  width: 100%;
+  background-image: url("../../assets/pages/home/subscribeCardImg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: #592100cc;
+  z-index: 1;
+  padding: 30px;
+}
+
+.subscribeText {
+  display: flex;
+}
+.leftText {
+  display: flex;
+  flex-direction: column;
+}
+.passName {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.passInfo {
+  color: #eaebec;
+  font-size: 14px;
+  font-weight: 400;
+}
+.tag {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: #6f442b;
+  border: 1px solid #8f6e5a;
+  border-radius: 16px;
+  padding: 5px 20px;
+  height: fit-content;
+  position: absolute;
+  right: 20px;
+}
+.cntBox {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.leftCnt,
+.leftDay {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #6f442b;
+  border: 1px solid #8f6e5a;
+  flex: 1;
+  height: 90px;
+  padding: 15px;
+  box-sizing: border-box;
+  gap: 10px;
+  margin-top: 25px;
+}
+.cntTitle {
+  color: #eaebec;
+  font-size: 14px;
+  font-weight: 500;
+}
+.cntNumber {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.cntNumber span {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-left: 2px;
+}
+.barcode {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.code {
+  display: flex;
+  justify-content: center;
+}
+.code span {
+  background-color: #7b5239;
+  border: 1px solid #8f6e5a;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 600;
+  width: 70%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.goToPass {
+  border-radius: 10px;
+  background-color: #ffffffe5;
+  color: #913500;
+  font-size: 11px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+}
