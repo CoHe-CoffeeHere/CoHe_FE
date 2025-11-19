@@ -152,6 +152,10 @@
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+  cursor: pointer;
+}
+.eventBtn:active {
+  transform: scale(0.98);
 }
 .hot {
   font-size: 12px;
@@ -199,5 +203,9 @@
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+  cursor: pointer;
+}
+.useBtn:active {
+  transform: scale(0.98);
 }
 /* 쿠폰함 끝 */
