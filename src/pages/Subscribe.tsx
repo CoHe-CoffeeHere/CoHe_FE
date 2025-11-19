@@ -8,6 +8,9 @@ import { useState } from "react";
 
 export default function Subscribe() {
   const [onPremium, setOnPremium] = useState<boolean>(true);
+  const selectPass = () => {
+    console.log("패스 선택");
+  };
   return (
     <>
       <div className={subscribeStyle.topTextDiv}>
@@ -80,7 +83,9 @@ export default function Subscribe() {
               VIP 라운지 이용
             </span>
           </div>
-          <div className={subscribeStyle.btnDiv}>선택하기</div>
+          <div className={subscribeStyle.btnDiv} onClick={selectPass}>
+            선택하기
+          </div>
         </div>
         <div
           className={`${subscribeStyle.planBox} ${
@@ -116,7 +121,9 @@ export default function Subscribe() {
               기본 리워드 적립
             </span>
           </div>
-          <div className={subscribeStyle.btnDiv}>선택하기</div>
+          <div className={subscribeStyle.btnDiv} onClick={selectPass}>
+            선택하기
+          </div>
         </div>
       </div>
     </>

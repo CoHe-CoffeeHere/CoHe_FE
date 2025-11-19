@@ -106,6 +106,7 @@
   border-radius: 16px;
   background-color: #ffffff;
   border: 2px transparent solid;
+  cursor: pointer;
 }
 .selected {
   background-color: transparent;
@@ -115,6 +116,9 @@
 .selected .btnDiv {
   background-color: #592100;
   color: #ffffff;
+}
+.selected .btnDiv:active {
+  transform: scale(0.98);
 }
 .passHeader {
   display: flex;
