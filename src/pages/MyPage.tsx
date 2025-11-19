@@ -40,7 +40,7 @@ export default function MyPage() {
         <MyPageItem text="이용 약관 및 정책" />
       </div>
       <div className={myPageStyle.logOut} onClick={logOut}>
-        로그아웃
+        <span>로그아웃</span>
       </div>
     </>
   );

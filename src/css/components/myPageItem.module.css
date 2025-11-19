@@ -5,6 +5,10 @@
   justify-content: space-between;
   padding: 20px;
   border-radius: 15px;
+  cursor: pointer;
+}
+.items:active {
+  transform: scale(0.98);
 }
 .items span {
   font-size: 14px;

@@ -84,11 +84,17 @@
   margin-top: 30px;
 }
 .logOut {
-  font-size: 14px;
-  font-weight: 500;
-  color: #ff4242;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+}
+.logOut span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ff4242;
+  cursor: pointer;
+}
+.logOut span:active {
+  transform: scale(0.98);
 }
