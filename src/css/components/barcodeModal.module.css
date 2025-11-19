@@ -39,6 +39,12 @@
   display: flex;
   justify-content: end;
 }
+.header img {
+  cursor: pointer;
+}
+.header img:active {
+  transform: scale(0.95);
+}
 .body {
   display: flex;
   flex-direction: column;

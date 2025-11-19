@@ -4,6 +4,7 @@ import characterIcon from "../assets/pages/home/character.svg";
 import barcode from "../assets/pages/home/barcode.svg";
 import BarcodeModal from "../components/BarcodeModal";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const [onBarcode, setOnBarcode] = useState(false);
@@ -57,9 +58,9 @@ export default function Home() {
           <div className={homeStyle.code}>
             <span>COHEE-PAH-2025-1114</span>
           </div>
-          <div className={homeStyle.goToPass}>
+          <Link to="/subscribe" className={homeStyle.goToPass}>
             코히 패스가 6일밖에 남지 않았어요 →
-          </div>
+          </Link>
         </div>
       </div>
     </>

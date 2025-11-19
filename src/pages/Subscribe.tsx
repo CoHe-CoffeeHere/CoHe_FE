@@ -40,6 +40,9 @@ export default function Subscribe() {
           className={`${subscribeStyle.planBox} ${
             onPremium ? subscribeStyle.selected : ""
           }`}
+          onClick={() => {
+            setOnPremium(true);
+          }}
         >
           <div className={subscribeStyle.passHeader}>
             <img src={premium} alt="premium" />
@@ -77,19 +80,15 @@ export default function Subscribe() {
               VIP 라운지 이용
             </span>
           </div>
-          <div
-            className={subscribeStyle.btnDiv}
-            onClick={() => {
-              setOnPremium(true);
-            }}
-          >
-            선택하기
-          </div>
+          <div className={subscribeStyle.btnDiv}>선택하기</div>
         </div>
         <div
           className={`${subscribeStyle.planBox} ${
             !onPremium ? subscribeStyle.selected : ""
           }`}
+          onClick={() => {
+            setOnPremium(false);
+          }}
         >
           <div className={subscribeStyle.passHeader}>
             <img src={basic} alt="basic" />
@@ -117,14 +116,7 @@ export default function Subscribe() {
               기본 리워드 적립
             </span>
           </div>
-          <div
-            className={subscribeStyle.btnDiv}
-            onClick={() => {
-              setOnPremium(false);
-            }}
-          >
-            선택하기
-          </div>
+          <div className={subscribeStyle.btnDiv}>선택하기</div>
         </div>
       </div>
     </>
