@@ -16,6 +16,7 @@ body {
     "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   scrollbar-gutter: stable both-edges;
+  overflow-x: hidden;
 }
 
 #root {
