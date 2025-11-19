@@ -4,6 +4,10 @@
   border-radius: 15px;
   display: flex;
   align-items: center;
+  cursor: pointer;
+}
+.requestCard:active {
+  transform: scale(0.98);
 }
 .TextDiv {
   display: flex;

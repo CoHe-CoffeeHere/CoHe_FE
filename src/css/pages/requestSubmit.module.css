@@ -2,6 +2,12 @@
   display: flex;
   align-items: center;
 }
+.arrow img {
+  cursor: pointer;
+}
+.arrow img:active {
+  transform: scale(0.95);
+}
 .arrow span {
   margin-left: 10px;
 }
@@ -97,4 +103,8 @@
 }
 .active {
   background-color: #913500;
+  cursor: pointer;
+}
+.active:active {
+  transform: scale(0.98);
 }
