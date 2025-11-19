@@ -5,7 +5,6 @@ import errorIcon from "../assets/pages/request/error.svg";
 import songIcon from "../assets/pages/request/song.svg";
 import arrowIcon from "../assets/pages/request/arrow-right.svg";
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
 
 type Props = {
   text1: string;

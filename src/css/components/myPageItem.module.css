@@ -1,0 +1,13 @@
+.items {
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 15px;
+}
+.items span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2e2f33e0;
+}
