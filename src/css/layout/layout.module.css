@@ -17,4 +17,5 @@
   padding: 25px 20px 85px 20px;
   box-sizing: border-box;
   background-color: #f7f7f8;
+  overflow-x: hidden;
 }
