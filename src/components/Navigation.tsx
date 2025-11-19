@@ -14,11 +14,22 @@ import offRequest from "../assets/components/navigation/offRequest.svg";
 
 import onMyPage from "../assets/components/navigation/onMyPage.svg";
 import offMyPage from "../assets/components/navigation/offMyPage.svg";
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 export default function Navigation() {
-  const [selected, setSelected] = useState("home");
   const navigate = useNavigate();
+  const selected =
+    location.pathname === "/"
+      ? "home"
+      : location.pathname.startsWith("/subscribe")
+      ? "subscribe"
+      : location.pathname.startsWith("/reward")
+      ? "reward"
+      : location.pathname.startsWith("/request")
+      ? "request"
+      : location.pathname.startsWith("/mypage")
+      ? "mypage"
+      : "home";
+
   const movePage = (e: React.MouseEvent<HTMLElement>) => {
     const page = e.currentTarget.dataset.value;
     if (page === "home") {
@@ -40,7 +51,6 @@ export default function Navigation() {
           selected === "home" ? naviStyle.selected : ""
         }`}
         onClick={(e) => {
-          setSelected("home");
           movePage(e);
         }}
         data-value="home"
@@ -53,7 +63,6 @@ export default function Navigation() {
           selected === "subscribe" ? naviStyle.selected : ""
         }`}
         onClick={(e) => {
-          setSelected("subscribe");
           movePage(e);
         }}
         data-value="subscribe"
@@ -69,7 +78,6 @@ export default function Navigation() {
           selected === "reward" ? naviStyle.selected : ""
         }`}
         onClick={(e) => {
-          setSelected("reward");
           movePage(e);
         }}
         data-value="reward"
@@ -82,7 +90,6 @@ export default function Navigation() {
           selected === "request" ? naviStyle.selected : ""
         }`}
         onClick={(e) => {
-          setSelected("request");
           movePage(e);
         }}
         data-value="request"
@@ -98,7 +105,6 @@ export default function Navigation() {
           selected === "mypage" ? naviStyle.selected : ""
         }`}
         onClick={(e) => {
-          setSelected("mypage");
           movePage(e);
         }}
         data-value="mypage"
