@@ -30,7 +30,7 @@
 /* 패스 박스 */
 .passContainer {
   width: 100%;
-  height: 400px;
+  /* height: 400px; */
   background-color: #592100;
   z-index: 10;
   position: relative;
@@ -38,8 +38,38 @@
   padding: 30px;
   display: flex;
   flex-direction: column;
+  justify-concent: center;
   box-sizing: border-box;
 }
+.leftCircleDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.circleGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 20px;
+  column-gap: min(4vw, 60px);
+}
+
+.circleWhite,
+.circleBrown {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.circleWhite {
+  background-color: white;
+}
+
+.circleBrown {
+  background-color: #b59b84;
+}
+
 .title {
   display: flex;
   justify-content: space-between;

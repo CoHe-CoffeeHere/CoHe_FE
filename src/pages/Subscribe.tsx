@@ -29,8 +29,22 @@ export default function Subscribe() {
           <span>Study Pass</span>
           <div>D-15</div>
         </div>
-        <div className={subscribeStyle.leftInfo}>월정액 | 잔여 9회</div>
+        <div className={subscribeStyle.leftInfo}>월정액 | 잔여 10회</div>
         <div className={subscribeStyle.cashInfo}>다음 결제일 : 2025.12.01</div>
+        <div className={subscribeStyle.leftCircleDiv}>
+          <div className={subscribeStyle.circleGrid}>
+            {Array.from({ length: 20 }).map((_, i) => (
+              <div
+                key={i}
+                className={
+                  i < 10
+                    ? subscribeStyle.circleWhite
+                    : subscribeStyle.circleBrown
+                }
+              ></div>
+            ))}
+          </div>
+        </div>
       </div>
       <div className={subscribeStyle.anotherPlanText}>
         <span className={subscribeStyle.anotherTitle}>다른 플랜 보기</span>
